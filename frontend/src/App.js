@@ -1,9 +1,8 @@
 import React from "react";
-import './App.css';
-import StudentForm from "./components/StudentForm";
-import StudentTable from "./components/StudentTable";
+import StudentForm from "./features/students/StudentForm";
+import StudentTable from "./features/students/StudentTable";
 
-function App() {
+const App = () => {
   return (
     <div>
       <h1>Student Management</h1>
@@ -11,7 +10,6 @@ function App() {
       <StudentTable />
     </div>
   );
-}
+};
 
 export default App;
-
